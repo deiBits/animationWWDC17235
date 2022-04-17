@@ -16,6 +16,8 @@
 		2DF532BF280C7D6300AF5089 /* EmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF532BE280C7D6300AF5089 /* EmojiTests.swift */; };
 		2DF532C9280C7D6300AF5089 /* EmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF532C8280C7D6300AF5089 /* EmojiUITests.swift */; };
 		2DF532CB280C7D6300AF5089 /* EmojiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF532CA280C7D6300AF5089 /* EmojiUITestsLaunchTests.swift */; };
+		2DF532DE280C7F8300AF5089 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF532DD280C7F8300AF5089 /* EmojiView.swift */; };
+		2DF532E0280C7FB300AF5089 /* WWDC in Resources */ = {isa = PBXBuildFile; fileRef = 2DF532DF280C7FB300AF5089 /* WWDC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2DF532C4280C7D6300AF5089 /* EmojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF532C8280C7D6300AF5089 /* EmojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiUITests.swift; sourceTree = "<group>"; };
 		2DF532CA280C7D6300AF5089 /* EmojiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DF532DD280C7F8300AF5089 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		2DF532DF280C7FB300AF5089 /* WWDC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WWDC; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 			children = (
 				2DF532A7280C7D6200AF5089 /* AppDelegate.swift */,
 				2DF532A9280C7D6200AF5089 /* SceneDelegate.swift */,
+				2DF532DD280C7F8300AF5089 /* EmojiView.swift */,
 				2DF532AB280C7D6200AF5089 /* ViewController.swift */,
 				2DF532AD280C7D6200AF5089 /* Main.storyboard */,
 				2DF532B0280C7D6300AF5089 /* Assets.xcassets */,
+				2DF532DF280C7FB300AF5089 /* WWDC */,
 				2DF532B2280C7D6300AF5089 /* LaunchScreen.storyboard */,
 				2DF532B5280C7D6300AF5089 /* Info.plist */,
 			);
@@ -234,6 +240,7 @@
 				2DF532B4280C7D6300AF5089 /* LaunchScreen.storyboard in Resources */,
 				2DF532B1280C7D6300AF5089 /* Assets.xcassets in Resources */,
 				2DF532AF280C7D6200AF5089 /* Main.storyboard in Resources */,
+				2DF532E0280C7FB300AF5089 /* WWDC in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF532AC280C7D6200AF5089 /* ViewController.swift in Sources */,
+				2DF532DE280C7F8300AF5089 /* EmojiView.swift in Sources */,
 				2DF532A8280C7D6200AF5089 /* AppDelegate.swift in Sources */,
 				2DF532AA280C7D6200AF5089 /* SceneDelegate.swift in Sources */,
 			);
