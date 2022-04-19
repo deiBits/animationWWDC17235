@@ -20,7 +20,7 @@ class ViewController : UIViewController {
     override func viewDidLoad(){
         super.viewDidLoad()
         view.backgroundColor = UIColor.black
-        //        let containerFrame = CGRect(origin: CGPoint(x: view.bounds.midX - maxContainerSize.width / 2, y:view.bounds.midY - maxContainerSize.height / 2), size: maxContainerSize)
+        // Container Frame needs to be set with start of touch!
         let containerFrame = CGRect(origin: CGPoint(x: view.bounds.midX - maxContainerSize.width / 2, y:view.bounds.midY - maxContainerSize.height / 2), size: maxContainerSize)
         self.containerView = EmojiView(frame: containerFrame)
         view.addSubview(containerView!)

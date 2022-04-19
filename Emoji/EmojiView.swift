@@ -23,6 +23,9 @@ class EmojiView: UIView {
             layer.contentsScale = screenScale
             layer.bounds = CGRect (x: 0, y: 0, width: layerSize, height: layerSize)
             layer.alignmentMode = CATextLayerAlignmentMode.center
+            
+            // Probably layer position for individual layer needs to be set in ViewController before
+            // animation and not here!
             let column = index % 4
             let row = (index - column) / 4
             layer.position = CGPoint (x: cornerInset + layerSize * column, y: cornerInset + layerSize * row)
