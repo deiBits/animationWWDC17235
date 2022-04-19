@@ -20,10 +20,10 @@ class ViewController : UIViewController {
     override func viewDidLoad(){
         super.viewDidLoad()
         view.backgroundColor = UIColor.black
+        //        let containerFrame = CGRect(origin: CGPoint(x: view.bounds.midX - maxContainerSize.width / 2, y:view.bounds.midY - maxContainerSize.height / 2), size: maxContainerSize)
         let containerFrame = CGRect(origin: CGPoint(x: view.bounds.midX - maxContainerSize.width / 2, y:view.bounds.midY - maxContainerSize.height / 2), size: maxContainerSize)
-        let containerView = EmojiView(frame: containerFrame)
-        view.addSubview(containerView)
-        self.containerView = containerView
+        self.containerView = EmojiView(frame: containerFrame)
+        view.addSubview(containerView!)
         setupAnimations()
         let rec = UIPanGestureRecognizer(target: self, action: #selector (handlePan))
         view.addGestureRecognizer(rec)
@@ -65,6 +65,7 @@ class ViewController : UIViewController {
                 animation.beginTime = baseStartTime + 0.028 * Double(i) // start each animation slightly later
                 animation.fillMode = CAMediaTimingFillMode.backwards // apply the initial value before the animation
                 layer.add(animation, forKey: nil)
+                containerLayer.addSublayer(layer)
             }
         }
     }
