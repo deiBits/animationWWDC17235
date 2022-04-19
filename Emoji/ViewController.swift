@@ -23,6 +23,7 @@ class ViewController : UIViewController {
         // Container Frame needs to be set with start of touch!
         let containerFrame = CGRect(origin: CGPoint(x: view.bounds.midX - maxContainerSize.width / 2, y:view.bounds.midY - maxContainerSize.height / 2), size: maxContainerSize)
         self.containerView = EmojiView(frame: containerFrame)
+        containerView?.backgroundColor = UIColor.orange
         view.addSubview(containerView!)
         setupAnimations()
         let rec = UIPanGestureRecognizer(target: self, action: #selector (handlePan))
@@ -41,6 +42,8 @@ class ViewController : UIViewController {
     func setupAnimations() {
         if let containerLayer = containerView?.layer, let emojiLayers = containerView?.emojilayers {
             containerLayer.speed = 0
+            containerLayer.masksToBounds = true
+            containerLayer.cornerRadius = 10
             let animation = CABasicAnimation(keyPath: "bounds.size.height")
             animation.fromValue = 80
             animation.toValue = self.maxContainerSize.height
