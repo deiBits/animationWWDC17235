@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Emoji
 //
-//  Created by natarajan b on 4/17/22.
+//  Created by de Bits on 4/17/22.
 
 // The missing sample code for
 // https://developer.apple.com/wwdc17/235

@@ -1,10 +1,10 @@
 //
 //  ViewController.swift
 //
-//  Created by natarajan b on 4/17/22.
+//  Created by de Bits on 4/17/22.
 // The missing sample code for
 // https://developer.apple.com/wwdc17/235
-// Copy Right would belong to Apple for even for this that they did not actually
+// Copy Right would belong to Apple even for this that they did not actually
 // publish except in video.
 //
 
