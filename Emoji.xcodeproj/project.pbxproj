@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D907442280F4F5E00BD8582 /* simulator_screenshot_308505E0-99FC-4E0D-94A8-A0164C4D62D7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D907441280F4F5E00BD8582 /* simulator_screenshot_308505E0-99FC-4E0D-94A8-A0164C4D62D7.png */; };
 		2DF532A8280C7D6200AF5089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF532A7280C7D6200AF5089 /* AppDelegate.swift */; };
 		2DF532AA280C7D6200AF5089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF532A9280C7D6200AF5089 /* SceneDelegate.swift */; };
 		2DF532AC280C7D6200AF5089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF532AB280C7D6200AF5089 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D907441280F4F5E00BD8582 /* simulator_screenshot_308505E0-99FC-4E0D-94A8-A0164C4D62D7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simulator_screenshot_308505E0-99FC-4E0D-94A8-A0164C4D62D7.png"; sourceTree = "<group>"; };
 		2DF532A4280C7D6200AF5089 /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF532A7280C7D6200AF5089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF532A9280C7D6200AF5089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				2DF532AB280C7D6200AF5089 /* ViewController.swift */,
 				2DF532AD280C7D6200AF5089 /* Main.storyboard */,
 				2DF532B2280C7D6300AF5089 /* LaunchScreen.storyboard */,
+				2D907441280F4F5E00BD8582 /* simulator_screenshot_308505E0-99FC-4E0D-94A8-A0164C4D62D7.png */,
 				2DF532B5280C7D6300AF5089 /* Info.plist */,
 			);
 			path = Emoji;
@@ -206,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D907442280F4F5E00BD8582 /* simulator_screenshot_308505E0-99FC-4E0D-94A8-A0164C4D62D7.png in Resources */,
 				2DF532B4280C7D6300AF5089 /* LaunchScreen.storyboard in Resources */,
 				2DF532AF280C7D6200AF5089 /* Main.storyboard in Resources */,
 			);
@@ -422,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.protolys.Emoji;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.Emoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.protolys.Emoji;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.Emoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
